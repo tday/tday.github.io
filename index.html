@@ -3,4 +3,4 @@ layout: preview
 ---
 
 {% assign post = site.categories.project.first %}
-<img src="{{ post.preview | prepend: site.baseurl }}">
+{% include post_preview.html %}
