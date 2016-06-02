@@ -1,0 +1,17 @@
+
+/* Text
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.logo {
+  color: black;
+  font: bold;
+}
+
+.highlight {
+  text-decoration: underline;
+  color: grey;
+}
+
+/* Utilities
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.u-center-text {
+  text-align: center;}

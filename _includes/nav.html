@@ -1,19 +1,33 @@
 <div class="row">
-    <h1> <a href={{site.url}}> {{site.title}} </a> </h1>
+    <h1> <a class="logo" href={{site.url}}> {{site.title}} </a> </h1>
 </div>
 
 <div class="row">
     <ul class="links" style="font-weight: bold">
-        {% for page in site.pages %}
-            {% if page.title and page.layout == "gallery" %}
-                <li> <a href="{{page.url}}"> {{page.title}} </a> </li>
+        {% for node in site.pages %}
+            {% if node.title and node.layout == "preview" %}
+                <li> 
+                    <a href="{{node.url}}"
+                    {% if page.url == node.url %}
+                        class="highlight"
+                    {% endif %}> 
+                        {{node.title}} 
+                    </a> 
+                </li>
             {% endif %}
         {% endfor %}
     </ul>
     <ul class="links" style="font-size: 80%">
-        {% for page in site.pages %}
-            {% if page.title and page.layout == "page" %}
-                <li> <a href="{{page.url}}"> {{page.title}} </a> </li>
+        {% for node in site.pages %}
+            {% if node.title and node.layout == "default" %}
+                <li> 
+                    <a href="{{node.url}}"
+                    {% if page.url == node.url %}
+                        class="highlight"
+                    {% endif %}> 
+                        {{node.title}} 
+                    </a> 
+                </li>
             {% endif %}
         {% endfor %}
     </ul>
