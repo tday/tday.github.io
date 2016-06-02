@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2015-10-07 15:39:40
-preview: http://placehold.it/800x600
+preview: http://placehold.it/300x300
 category: project
 ---
 
