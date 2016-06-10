@@ -4,6 +4,7 @@ title:  "Welcome to Jekyll!"
 date:   2015-10-06 15:39:40
 preview: http://placehold.it/250x300
 category: project
+gallery_url: projects_gallery.html
 ---
 
 ![Picture 1](http://placehold.it/800x600)

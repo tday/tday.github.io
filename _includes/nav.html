@@ -5,7 +5,7 @@
 <div class="row">
     <ul class="links" style="font-weight: bold">
         {% for node in site.pages %}
-            {% if node.title and node.layout == "preview" %}
+            {% if node.title and node.layout == "gallery" %}
                 <li> 
                     <a href="{{node.url}}"
                     {% if page.url == node.url %}
