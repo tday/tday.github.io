@@ -2,13 +2,13 @@
 /* Text
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .logo {
-  color: black;
+  color: #003459;
   font: bold;
 }
 
 .highlight {
   text-decoration: underline;
-  color: grey;
+  color: #007EA7;
 }
 
 /* Utilities

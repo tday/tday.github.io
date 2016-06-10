@@ -116,6 +116,7 @@
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* NOTE
+COLOR PALETTE: #FFFFFF 00171F 003459 007EA7 00A8E8
 html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
@@ -125,7 +126,7 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222; }
+  color: #00171F; }
 
 
 /* Typography
@@ -158,11 +159,11 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: black; 
+  color: #003459; 
   text-decoration: none;
 }
 a:hover {
-  color: grey; }
+  color: #007EA7; }
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
