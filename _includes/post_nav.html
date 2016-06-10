@@ -1,11 +1,15 @@
 <div class="row">
-    <div class="offset-by-two six columns u-center-text">
+    <div class="u-center-text six columns">
         <h5>
             {% if page.previous.url %}
-                <a href="{{page.previous.url}}"> {{page.previous.title}} <i class="material-icons">navigate_before</i> </a>
+                <a href="{{page.previous.url}}"> <i class="material-icons">navigate_before</i> {{page.previous.title}}</a>
             {% endif %}
+        </h5>
+    </div>
+    <div class="u-center-text six columns">
+        <h5>
             {% if page.next.url %}
-                <a href="{{page.next.url}}"> <i class="material-icons">navigate_next</i> {{page.next.title}}</a>
+                <a href="{{page.next.url}}"> {{ page.next.title }} <i class="material-icons">navigate_next</i> <a>
             {% endif %}
         </h5>
     </div>
