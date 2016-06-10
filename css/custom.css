@@ -6,6 +6,11 @@
   font: bold;
 }
 
+.social-media-list {
+    list-style: none;
+    margin-left: 0;
+}
+
 .highlight {
   text-decoration: underline;
   color: #007EA7;
@@ -15,3 +20,13 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .u-center-text {
   text-align: center;}
+
+/**
+ * Icons
+ */
+.icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
