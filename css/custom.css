@@ -1,3 +1,10 @@
+/* Images
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.circle-img {
+  border: 1px solid #003459;
+  border-radius: 50%;
+}
 
 /* Text
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -21,9 +28,8 @@
 .u-center-text {
   text-align: center;}
 
-/**
- * Icons
- */
+/* Icons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .icon {
     display: inline-block;
     width: 32px;
