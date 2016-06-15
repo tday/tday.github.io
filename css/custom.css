@@ -14,8 +14,9 @@
 }
 
 .social-media-list {
-    list-style: none;
-    margin-left: 0;
+  display: inline;
+  list-style: none;
+  margin-left: 0;
 }
 
 .highlight {
