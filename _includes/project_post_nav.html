@@ -1,15 +1,15 @@
 <div class="row">
     <div class="u-center-text six columns">
         <h5>
-            {% if page.previous.url && page.category == node.category%}
+            {% if page.previous.url and page.previous.categories contains "project" %}
                 <a href="{{page.previous.url}}"> <i class="material-icons">navigate_before</i> {{page.previous.title}}</a>
             {% endif %}
         </h5>
     </div>
     <div class="u-center-text six columns">
         <h5>
-            {% if page.next.url && page.category == node.category %}
-                <a href="{{page.next.url}}"> {{ page.next.title }} <i class="material-icons">navigate_next</i> <a>
+            {% if page.next.url and page.next.categories contains "project" %}
+                <a href="{{page.next.url}}"> {{ page.next.title }} <i class="material-icons">navigate_next</i> </a>
             {% endif %}
         </h5>
     </div>
