@@ -1,5 +1,4 @@
 ---
-layout: post
 title: King
 image-url: https://drscdn.500px.org/photo/158136975/m%3D900/276b814a4f7f377bc7041276c2c2c623
 content-url: https://500px.com/photo/158136975/king-by-alan-yang
