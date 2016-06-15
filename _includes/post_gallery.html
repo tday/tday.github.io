@@ -1,9 +1,24 @@
 {% for post in posts %}
     <div class="row">
+        <h1 class="u-center-text"> {{post.title}} </h1>
+        {% if post.alt_preview %}
+        <div class="offset-by-one five columns">
+        {% else %}
         <div class="offset-by-one twelve columns">
-            <h1 class="u-center-text"> {{post.title}} </h1>
+        {% endif %}
             <a href="{{post.url}}"> <img class="preview" src="{{ post.preview }}"> </a>
-            <p> {{post.excerpt}} </p>
+        </div>
+        {% if post.alt_preview %}
+        <div class="five columns">
+            <a href="{{post.url}}"> <img class="preview" src="{{ post.alt_preview }}"> </a>
+        </div>
+        {% endif %}
+    </div>
+    <div class="row">
+        </br>
+        <div class="offset-by-one ten columns">
+            {{post.excerpt}}
+            <a href="{{post.url}}" class="highlight"> Read more... </a>
         </div>
     </div>
 {% endfor %}
