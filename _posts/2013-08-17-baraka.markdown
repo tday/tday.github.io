@@ -1,0 +1,8 @@
+---
+layout: post
+title: Baraka
+image-url: https://drscdn.500px.org/photo/43683520/m%3D900/5d5f428a6206c9be284a478d5d06d21d
+content-url: https://500px.com/photo/43683520/baraka-by-alan-yang
+alt: Baraka by Alan Yang on 500px.com
+category: photos
+---
