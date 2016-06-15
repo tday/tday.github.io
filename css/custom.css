@@ -1,6 +1,12 @@
 /* Images
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+.preview {
+  border: 1px solid #003459;
+  width: 100%;
+  height: auto;
+}
+
 .circle-img {
   border: 1px solid #003459;
   border-radius: 50%;
