@@ -10,7 +10,7 @@ I joined the HOA board of my community, Edson Park, last year to help improve co
 
 <!--more-->
 
-[![Edson Park Website]({{site.url}}/images/edson_cover.png)](http://edsonpark.com)
+[![Edson Park Website]({{site.url}}/images/edson_cover.png)](https://web.archive.org/web/20180805071611/http://edsonpark.com/)
 
 This was my first time creating a website for a professional purpose, and I learned a lot from the process. I wanted to write about some of my lessons learned
 
