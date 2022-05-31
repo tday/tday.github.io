@@ -1,8 +1,8 @@
 ---
 layout: project_post
 title: The best laid plans...
-preview: images/baby_1.png
-alt_preview: images/baby_2.png
+preview: images/baby_1.jpeg
+alt_preview: images/baby_2.jpeg
 category: project
 ---
 
